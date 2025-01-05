@@ -7,8 +7,6 @@ from tkinter import filedialog
 from datetime import datetime
 import csv
 
-
-
 class BandwidthTesterApp(tk.Tk):
     def __init__(self):
         super().__init__()

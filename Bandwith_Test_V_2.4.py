@@ -7,8 +7,6 @@ from tkinter import filedialog
 from datetime import datetime
 import csv
 
-
-
 class BandwidthTesterApp(tk.Tk):
     def __init__(self):
         super().__init__()
@@ -25,7 +23,7 @@ class BandwidthTesterApp(tk.Tk):
 
         # Variables
         self.serial_number = tk.StringVar(value='A-0000')
-        self.server_ip = tk.StringVar(value='192.168.10.174')
+        self.server_ip = tk.StringVar(value='192.168.1.')
         self.port = tk.IntVar(value=5201)
         self.mode = tk.StringVar(value='Server')
         self.protocol = tk.StringVar(value='UDP')
